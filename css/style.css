@@ -191,23 +191,17 @@ body {
 .website-style {
   display: block;
   width: 137px;
-  height: 30px;
   margin-bottom: 25px;
 }
 
 .index-link {
-  left: 427px;
-  top: 105px;
   display: inline-block;
-  margin: 0 1rem 25px 0;
+  margin: 0 0 25px 0;
+  padding-left: 52px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   color: #3F2AFF;
-}
-
-.arrow {
-  padding-left: 52px;
   background-image: url("../img/Arrow\ 1.png");
   background-position: left center;
   background-repeat: no-repeat;
@@ -224,6 +218,7 @@ body {
 
 .list {
   padding: 0;
+  margin: 0;
   font-size: 0;
   list-style: none;
 }
@@ -234,8 +229,7 @@ body {
   width: 572px;
   min-height: 505px;
   margin: 0 25px 25px 0;
-  padding-top: 205px;
-  padding-left: 25px;
+  padding: 205px 0 0 25px;
   vertical-align: top;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -268,7 +262,7 @@ body {
 }
 
 .modules-third-header {
-  margin: 0 1em 2px 0;
+  margin: 0 0 2px 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 46px;
@@ -276,7 +270,7 @@ body {
 }
 
 .list-in-item {
-  margin: 0 1em 0 0;
+  margin: 0;
   padding-left: 0;
   font-weight: 400;
   font-size: 20px;
@@ -287,8 +281,8 @@ body {
 
 .card-number {
   position: absolute;
-  left: 502px;
-  top: 434px;
+  right: 25px;
+  bottom: 25px;
   text-align: right;
   font-weight: 400;
   font-size: 40px;
